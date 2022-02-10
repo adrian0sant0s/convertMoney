@@ -1,2 +1,0 @@
-# convertMoney
-conversor de moedas!
