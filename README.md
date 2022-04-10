@@ -9,7 +9,7 @@
 
 <br>
 
-<p>Foi usado uma API para a atualização a cada 30s dos valores das moedas. </p>
+<p>Foi usado uma API para a atualização em tempo real dos valores das moedas. </p>
 
 ### Ajustes e melhorias
 
