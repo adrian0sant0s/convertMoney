@@ -10,9 +10,11 @@ const convertValues = async () => {
     "https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL"
   ).then((response) => response.json());
 
-  const dolar = data.EURBRL.high;
-  const euro = data.USDBRL.high;
-  const bitcoin = data.BTCBRL.high;
+  console.log(data);
+
+  const dolar = data.EUR.high;
+  const euro = data.USD.high;
+  const bitcoin = data.BTC.high;
 
   realValueText.innerHTML = new Intl.NumberFormat("pt-BR", {
     style: "currency",
